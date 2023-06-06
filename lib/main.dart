@@ -11,3 +11,26 @@ class Destini extends StatelessWidget {
     );
   }
 }
+
+
+StoryBrain storyBrain = new StoryBrain();
+
+class StoryPage extends StatefulWidget {
+
+  _StoryPageState createState() => _StoryPageState();
+}
+
+class _StoryPageState extends State<StoryPage> {
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          
+          image: DecorationImage(
+            image: AssetImage("images/background.png"),
+            fit: BoxFit.cover,
+          ),
+        ),
